@@ -1,0 +1,11 @@
+Within the virtual environment
+
+Step One: pip install pyinstaller
+
+Step Two: pyinstaller calc.py -w  (pour windows
+
+Step Three: modify our calc.spec file, making several changes shown in the video.
+
+Step Four: pyinstaller calc.spec -y
+
+Step Five: Zip up all the files into one .zip file that you can share!
