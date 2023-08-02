@@ -1,0 +1,86 @@
+
+ETAPA 1:
+Run Raspberry PI
+
+	- Install Raspbian
+	- Config internet et ipconfig
+	- Config user et password acccess
+	- Install winSCP sur PC for development(user: pi passw: se*****10)  https://winscp.net/eng/download.php
+	- Install RaspController sur Mobil for execution
+	- Using VNC Server et Client in PC and mobile  https://www.realvnc.com/es/connect/download/viewer/windows
+	- Using SSH et linux link
+	- Secure Shell from Linux or Mac OS
+	
+
+	Control Raspberry from remote mobile (RaspController)
+	https://www.youtube.com/watch?v=lnHyVswZksM
+
+	Connect PC/Iphone/Android like screen of Raspberry
+	https://youtu.be/nui8kXvUAys
+
+	Capture video adapteur:
+	https://www.amazon.ca/dp/B08CH9FC22/ref=as_li_ss_tl?dchild=1&crid=ZMU46GAZUIM1&keywords=usb+capture+card&sprefix=usb+cap,aps,170&language=en_US&sr=8-13&linkCode=gs2&linkId=671a2641a44351d2b68dedfc9606384e&tag=etaprime-20
+
+
+	Adaptateur bidirectional DIO
+	https://www.amazon.ca/DAOKI-Channels-Bi-Directional-Converter-Raspberry/dp/B091TQBKY7/ref=d_pd_sbs_sccl_1_6/141-8843965-3228349?pd_rd_w=QA72d&content-id=amzn1.sym.16fb0fcb-6625-4d4e-be94-e5c613593d44&pf_rd_p=16fb0fcb-6625-4d4e-be94-e5c613593d44&pf_rd_r=G7CQ2AE02FNJ4CDMB1VG&pd_rd_wg=fQ1EU&pd_rd_r=fcccf9cc-5da2-4a3b-b7e7-3831b8b0ac81&pd_rd_i=B091TQBKY7&psc=1
+
+
+ETAPA 2:
+
+	Install Python 
+	https://datatofish.com/add-python-to-windows-path/
+	C:\Users\mrica\AppData\Local\Programs\Python\Python311
+	
+	Create virtual environment: kivy_env2
+	Create new Project intelliJ en utilisant compiler (virtual environment new or existing)
+	https://www.educative.io/answers/how-to-install-the-kivy-module-in-python
+	Install Kivy https://www.youtube.com/watch?v=E6AmVyYb3QM 
+	
+	Basic Kiby
+	https://github.com/flatplanet/kivy-youtube-playlist/blob/main/builder.py
+	https://www.youtube.com/watch?v=dVVPOPuPPc0&list=PLCC34OHNcOtpz7PJQ7Tv7hqFBP_xDDjqg&index=6
+	https://kivy.org/doc/stable/api-kivy.uix.filechooser.html#
+	
+	Beautyfull with MDKivy
+	Install kivyMD https://github.com/kivymd/KivyMD
+	https://www.youtube.com/watch?v=dLgquj0c5_U&list=PLCC34OHNcOtpz7PJQ7Tv7hqFBP_xDDjqg
+	https://www.youtube.com/watch?v=ycoKlFV3-iU&list=PLCC34OHNcOtpz7PJQ7Tv7hqFBP_xDDjqg&index=40
+	https://www.material.io/design
+	Custom video player: https://www.youtube.com/watch?v=v8e-ukTAg5o
+    https://github.com/kivymd/KivyMD
+	https://github.com/kivymd/KitchenSink
+	https://m3.material.io/components/navigation-rail/overview
+	https://m3.material.io/components/navigation-drawer/overview
+	https://kivymd.readthedocs.io/en/0.104.0/themes/theming/
+	
+	Kivy MD Basic example:  
+		https://www.youtube.com/watch?v=gW4byuP97K4&list=PLCC34OHNcOtpz7PJQ7Tv7hqFBP_xDDjqg&index=41
+		https://kivycoder.com/how-to-teach-yourself-kivymd-quickly-python-kivy-gui-tutorial-41/
+		Both of them works properly at same venv kivi et kiviMD
+	
+	Reesources https://kivy.org/doc/stable/examples/#
+	https://kivymd.readthedocs.io/en/1.1.1/components/navigationdrawer/
+	
+	Joystick connection https://kivy.org/doc/stable/guide/inputs.html
+	Example: C:\DATA2020\RVR2023\KivyRVR\myKivyMD\KivyMD\examples\miscellaneous\joystick.py
+	
+
+ETAPA 3:
+
+Raspberry PI Web Server
+
+	- Using Raspberry like webserver:  
+		Developper flask application in PC to transfer to Raspberry pi to tests DIO inputs / outputs
+		Start flask Application on Raspberry by default
+	- Using webserver to control and inputs
+	- Doing interface to server using Kivi
+	
+
+SIM900 + Raspberry
+https://novamostra.com/2022/01/22/home-assistant-sms-integration-raspberry-pi/#more-2038
+
+https://circuitdigest.com/microcontroller-projects/how-to-tether-internet-on-raspberry-pi-using-sim800l-gsm-module
+
+https://www.rhydolabz.com/wiki/?p=10450
+4
